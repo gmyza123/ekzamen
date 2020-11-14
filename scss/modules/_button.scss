@@ -1,0 +1,13 @@
+.button{
+    font-family: $font;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: var(--blue);
+    padding: 26px 36px;
+    display: inline-block;
+    transition: all .3s;
+    margin-left: 3px;
+    color:#fff;
+}

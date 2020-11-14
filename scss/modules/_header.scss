@@ -1,0 +1,50 @@
+.header{
+    background: url('../images/header.jpg') no-repeat top center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    
+    
+    &__table{
+        padding-top: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+        
+    }
+
+    &__title{
+        font-family: $jose;
+        font-weight: 400;
+        font-size: 48px;
+        text-transform: uppercase;
+        margin-bottom: 18px;
+    }
+
+    &__text{
+        font-family: $jose;
+        font-size: 22px;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+
+    &__logo{
+        font-size: 24px;
+        font-weight: 800;
+        font-family: $jose;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    
+}
+
+.arrow-down{
+    
+}
